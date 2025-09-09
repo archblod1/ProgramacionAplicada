@@ -1,3 +1,4 @@
+#Este codigo vale 1 decima
 for i in range (1,21):
   residual = i%2
      if residual == 0:
@@ -9,6 +10,7 @@ for i in range (1,21):
  for i in range (0,6):
      result = i**3
      print(result)
+
 
 times = input("Enter a number of times: ")
 times = float(times)
