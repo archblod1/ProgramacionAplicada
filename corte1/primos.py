@@ -1,6 +1,6 @@
 #Este codigo vale 1 decima
 a = 1
-value = input('Ingrese un valor')
+value = input('Ingrese un valor ')
 value = int(value)
 
 while a == 1:
@@ -16,18 +16,18 @@ while a == 1:
             # print("residue = ", residue)
             # print("conta = ", conta)
     if conta == 2:
-       print(f'{i} es un primo')
+       print(f'{i} Es un primo')
        print("\n")
     else:
-       print(f'{i} NOOO es un primo')
+       print(f'{i} No es un primo')
        print("\n")
 
-    print('Do you want to continue?. Press 1 to do that')
+    print('Presione 1 para continuar')
     a = input()
     a = int(a)
 
     if a != 1:
         break
 
-    value = input('Ingrese un valor')
+    value = input('Ingrese un valor ')
     value = int(value)
