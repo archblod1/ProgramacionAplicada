@@ -10,11 +10,7 @@ while a == 1:
             residue = i%n
             if residue == 0:
                 conta = conta + 1
-            
-            # print("i = ", i)
-            # print("n = ", n)
-            # print("residue = ", residue)
-            # print("conta = ", conta)
+
     if conta == 2:
        print(f'{i} Es un primo')
        print("\n")
